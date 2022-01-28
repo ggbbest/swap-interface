@@ -8,7 +8,7 @@ import MainnetCroDefiSwapFactory from './mainnet/CroDefiSwapFactory.json'
 import MainnetCroDefiSwapERC20 from './mainnet/CroDefiSwapERC20.json'
 import MainnetICroDefiSwapPair from './mainnet/ICroDefiSwapPair.json'
 
-export const ERC20 = process.env.REACT_APP_CHAIN_ID === '1' ? MainnetCroDefiSwapERC20 : CroDefiSwapERC20
-export const CroDefiSwapPairAbi = process.env.REACT_APP_CHAIN_ID === '1' ? MainnetCroDefiSwapPair : CroDefiSwapPair
-export const CroDefiSwapFactoryAbi = process.env.REACT_APP_CHAIN_ID === '1' ? MainnetCroDefiSwapFactory : CroDefiSwapFactory
-export const ICroDefiSwapPairInterface = process.env.REACT_APP_CHAIN_ID === '1' ? MainnetICroDefiSwapPair : ICroDefiSwapPair
+export const ERC20 = process.env.REACT_APP_CHAIN_ID === '21004' ? MainnetCroDefiSwapERC20 : CroDefiSwapERC20
+export const CroDefiSwapPairAbi = process.env.REACT_APP_CHAIN_ID === '21004' ? MainnetCroDefiSwapPair : CroDefiSwapPair
+export const CroDefiSwapFactoryAbi = process.env.REACT_APP_CHAIN_ID === '21004' ? MainnetCroDefiSwapFactory : CroDefiSwapFactory
+export const ICroDefiSwapPairInterface = process.env.REACT_APP_CHAIN_ID === '21004' ? MainnetICroDefiSwapPair : ICroDefiSwapPair
