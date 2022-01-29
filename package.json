@@ -142,6 +142,8 @@
     "@ethersproject/networks": "^5.0.0-beta",
     "@ethersproject/providers": "^5.0.0-beta",
     "@ethersproject/solidity": "^5.0.0-beta",
-    "@uniswap/sdk": "^3.0.3-beta.1"
+    "@uniswap/sdk": "^3.0.3-beta.1",
+    "cors": "^2.8.5"
   }
+  ,"proxy":"http://localhost:8080"
 }

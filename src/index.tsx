@@ -21,6 +21,8 @@ import { Helmet } from 'react-helmet'
 
 const Web3ProviderNetwork = createWeb3ReactRoot(NetworkContextName)
 const showCookieConsent = process.env.NODE_ENV !== 'development'
+// const cors = require("cors")
+// app.use(cors({origin:"https://subgraph.c4ei.net/subgraphs/name/c4ei/swap/graphql"}))
 
 if ('ethereum' in window) {
   ;(window.ethereum as any).autoRefreshOnNetworkChange = false
