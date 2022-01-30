@@ -52,6 +52,6 @@ export const portis = new PortisConnector({
 // mainnet only
 export const walletlink = new WalletLinkConnector({
   url: NETWORK_URL,
-  appName: 'Crypto.com | DeFi Swap',
+  appName: 'swap.c4ei.net | DeFi Swap',
   appLogoUrl: 'https://dnkplacumu1sr.cloudfront.net/crypto_com_logo.svg'
 })

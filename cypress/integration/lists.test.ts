@@ -10,9 +10,9 @@ describe('Swap', () => {
     cy.get('#currency-search-change-list-button').should('not.exist')
   })
 
-  it('list crypto.com list should be used as default', () => {
+  it('list swap.c4ei.net list should be used as default', () => {
     cy.get('#swap-currency-output .open-currency-select-button').click()
-    //TODO: change to crypto.com
+    //TODO: change to swap.c4ei.net
     cy.get('#currency-search-selected-list-name').should('contain', 'Crop')
   })
 

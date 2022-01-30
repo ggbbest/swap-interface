@@ -150,7 +150,7 @@ export default function Yield() {
                       <>
                         {t('apy_tooltip_1')}
                         <ExternalLink
-                          href={`https://help.crypto.com/en/articles/4429871-how-is-my-accrued-cro-defi-yield-calculated-on-defi-swap`}
+                          href={`https://help.swap.c4ei.net/en/articles/4429871-how-is-my-accrued-cro-defi-yield-calculated-on-defi-swap`}
                         >
                           {t('apy_tooltip_faq')}
                         </ExternalLink>

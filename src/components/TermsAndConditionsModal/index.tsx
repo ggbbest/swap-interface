@@ -83,7 +83,7 @@ export default function TermsAndConditionsModal() {
                   onChange={toggleRegionCheck}
                 />{' '}
                 I am not a citizen or resident of any of the countries listed{' '}
-                <ExternalLink href={`http://help.crypto.com/en/articles/4429907-defi-swap-geo-restrictions`}>
+                <ExternalLink href={`http://help.swap.c4ei.net/en/articles/4429907-defi-swap-geo-restrictions`}>
                   here
                 </ExternalLink>
               </label>

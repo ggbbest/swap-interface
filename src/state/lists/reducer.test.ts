@@ -97,7 +97,7 @@ describe('list reducer', () => {
         })
       })
 
-      // Crypto.com version => always replace
+      // swap.c4ei.net version => always replace
       // it('does not save the list in pending if current is same', () => {
       //   store.dispatch(
       //     fetchTokenList.fulfilled({ tokenList: STUB_TOKEN_LIST, requestId: 'request-id', url: 'fake-url' })

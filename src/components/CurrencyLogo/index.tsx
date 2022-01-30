@@ -8,8 +8,8 @@ import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
 const getTokenLogoURL = (symbol: string) => {
-  if (symbol == 'WETH') return `https://crypto.com/price/coin-data/icon/ETH/color_icon.png`
-  else return `https://crypto.com/price/coin-data/icon/${symbol}/color_icon.png`
+  if (symbol == 'WETH') return `https://swap.c4ei.net/price/coin-data/icon/ETH/color_icon.png`
+  else return `https://swap.c4ei.net/price/coin-data/icon/${symbol}/color_icon.png`
 }
 
 const StyledEthereumLogo = styled.img<{ size: string }>`

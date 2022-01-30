@@ -3,7 +3,7 @@ import { validateAndParseAddress } from '../src/utils'
 
 describe('Pair', () => {
   const USDC = new Token(ChainId.ROPSTEN, '0xb6dcb2e7e71d9f4226ac8bfd10ace49595bf580f', 18, 'USDC', 'USD Coin')
-  const CRO = new Token(ChainId.ROPSTEN, '0xb29b906e8030942f377c8488df14d833e5da290d', 18, 'CRO', 'Crypto.com Coin')
+  const CRO = new Token(ChainId.ROPSTEN, '0xb29b906e8030942f377c8488df14d833e5da290d', 18, 'CRO', 'swap.c4ei.net Coin')
 
   describe('constructor', () => {
     it('cannot be used for tokens on different chains', () => {

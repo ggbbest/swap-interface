@@ -255,7 +255,7 @@ const StakeSummary: FC = () => {
                       <>
                         {t('boost_tooltip_1')}
                         <ExternalLink
-                          href={`http://help.crypto.com/en/articles/4429871-how-is-my-accrued-cro-defi-yield-calculated-on-defi-swap`}
+                          href={`http://help.swap.c4ei.net/en/articles/4429871-how-is-my-accrued-cro-defi-yield-calculated-on-defi-swap`}
                         >
                           {t('boost_tooltip_click_here')}
                         </ExternalLink>
